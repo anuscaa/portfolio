@@ -454,6 +454,7 @@ body {
   padding: 1rem;
   width: 50%;
   margin: auto;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .form-container input {
@@ -467,6 +468,7 @@ body {
   margin-bottom: 1rem;
   color: #fffefe;
   font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .form-container textarea {
@@ -478,10 +480,12 @@ body {
   outline: none;
   padding: 1rem 0;
   resize: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .form-container h2 {
   font-size: 2.7rem;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
   color: #fffefe;
   margin-bottom: 1rem;
@@ -489,17 +493,47 @@ body {
 }
 
 .form-container a {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-#footer h2 {
+/* Footer Styling */
+#footer {
+  background-color: #222; /* Dark background */
+  color: #fff; /* White text */
   text-align: center;
-  font-size: 1.8rem;
-  padding: 2.6rem;
-  font-weight: 500;
-  color: #fff;
-  background: rgb(65, 65, 65);
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 0;
+  font-size: 22px;
 }
+
+/* Social Media Icons (Centered & Spaced) */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.social-links a i {
+  font-size: 30px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a i:hover 
+{
+  transform: scale(1.2);
+  color: #ffcc00;
+} /* Change color
+
+/* Copyright Text */
+#footer h2 {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+
 
 /* ......../ media query /.......... */
 
